@@ -3,7 +3,7 @@
 Below are the steps to use this module.
 
 1. git clone https://github.com/rishu0705/authenticatemodel.git
-2. cd <module directory>
+2. cd ##module directory##
 3. mvn clean install
 4. cd target
 5. java -jar authenticatemodel-0.0.1-SNAPSHOT.jar
