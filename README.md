@@ -13,3 +13,21 @@ Below are the steps to use this module.
 	password : Pass@123
 	
 ##################### 
+
+Configuration Details :
+
+Application Type : SpringBoot application
+Authentication : Spring Security
+Port : 8089
+Database : H2 database (in memory)
+Database console url : http://localhost:8089/h2-console
+Driver Class : org.h2.Driver
+JDBC url : jdbc:h2:mem:authenticatemodel
+username : root
+password : root
+
+####################
+
+Backend Validation:
+
+Length Validation of fields : min = 5 and max = 255 except Role (min = 2)
